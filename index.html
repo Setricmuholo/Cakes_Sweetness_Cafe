@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cakes Sweetness Café</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#more-products">More Products</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#" onclick="toggleLogin()">Create Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+        Welcome to Cakes Sweetness Cafe, your one-stop destination for delicious and beautifully crafted cakes. Nestled in the heart of town, our quaint little cake shop is a haven for cake lovers of all ages. With a passion for baking and a commitment to quality, we take pride in creating simple yet irresistible cakes that bring joy to every bite.
+    </p>
+    <p>
+        At Cakes Sweetness Cafe, we believe that simplicity is the ultimate sophistication. Our cakes are made with the finest ingredients, ensuring a moist and flavorful experience with every slice. From classic vanilla and rich chocolate to delightful fruit flavors, our cake menu offers a variety of options to suit every taste and occasion. Whether you're celebrating a birthday, anniversary, or simply craving a sweet treat, our cakes are designed to bring smiles and create lasting memories.
+    </p>
+    <p>
+        Step into our cozy cafe, and you'll be greeted by the warm aroma of freshly baked cakes. Our friendly and skilled bakers are always ready to assist you in choosing the perfect cake for your special moments. With attention to detail and a touch of artistry, we can customize cakes with personalized messages or decorations, making them truly unique and tailored to your preferences.
+    </p>
+    <p>
+        Visit Cakes Sweetness Cafe today and let us enchant your taste buds with our delectable cakes. Indulge in the simple pleasures of life and savor every sweet moment. Because when it comes to cakes, simplicity is the secret ingredient that makes every bite unforgettable.
+    </p>
+  </section>
+
+  <section id="more-products">
+    <h2>More Products</h2>
+   <p>We offer</p>
+   <p>
+    Chocolate Fudge Cake: Indulge your taste buds with the rich and decadent delight of a chocolate fudge cake. This classic dessert is a chocoholic's dream come true. Layers of moist and velvety chocolate cake are generously slathered with a thick, smooth, and luscious chocolate fudge frosting. Each bite is a heavenly experience as the cake melts in your mouth, releasing a burst of intense chocolate flavor. Whether it's a birthday celebration or a simple craving for something sweet, the chocolate fudge cake is a go-to choice for all occasions.
+   </p>
+   <p>
+    Red Velvet Cake: Delicate, elegant, and visually stunning, the red velvet cake is a true showstopper. With its striking crimson hue and subtle hints of cocoa, this cake is as beautiful as it is delicious. The tender layers of red velvet cake are known for their moist texture and subtle buttermilk tang. The crowning glory of the red velvet cake is the creamy cream cheese frosting that perfectly complements the cake's flavors. The contrasting colors of the cake and frosting create a visually pleasing dessert that adds a touch of luxury to any gathering. The red velvet cake is a timeless classic that never fails to impress.
+   </p> 
+  </section>
+
+  <section id="order">
+    <h2>Order</h2>
+    <p>We make deliveries 2 days after the order date. please note that the above will change depending on the quantity of order made</p>
+    <p>
+        Customers are requires to pay a deposit of 40% of the quotation price this is to cater for the materials that maybe needed for production. Upon failure to meet the demand customers are notified earlier and are entitled to be refunded 60% of there intial deposit. Note this will not aply if the customer decided to cancel the order.
+    </p>
+  </section>
+
+  <section id="login">
+    <h2>Create Profile</h2>
+    <button onclick="showLogin()">Create Account</button>
+    <button onclick="showLogin()">Log In</button>
+  </section>
+
+  <section id="cakes-photos">
+    <h2>Cakes</h2>
+    <img src="cake.jpeg" alt="Cake Photo"> <img src="cakes3.jpeg" alt="Cake Photo">
+    <p><img src="cakes4.jpeg" alt="Cake Photo"> <img src="cake2.jpeg" alt="Cake Photo"> <img src="cakes5.jpeg" alt="Cake Photo"></p>
+  </section>
+
+  <script>
+    function toggleLogin() {
+      var loginSection = document.getElementById("login");
+      loginSection.style.display = loginSection.style.display === "none" ? "block" : "none";
+    }
+
+    function showLogin() {
+      alert("This feature is not implemented yet.");
+    }
+  </script>
+</body>
+</html>

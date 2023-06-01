@@ -1,0 +1,38 @@
+body {
+    background-image: url("cake.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  
+  header {
+    background-color: orange;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the menu items horizontally */
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    background-color: transparent;
+    padding: 20px;
+    scroll-margin-block: 20px;
+  }
+  
+  #login {
+    display: none;
+  }
+  
